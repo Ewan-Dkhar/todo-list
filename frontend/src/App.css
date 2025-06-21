@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-box{
+  background: #000;
+  height: 600px;
+  width: 500px;
+  padding: 20px 30px;
+  border-radius: 1rem;
+}
+
+.input-box{
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.input{
+  border: none;
+  border-bottom: 1px solid #535bf2;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  margin-top: 1rem;
+  outline: none;
+  flex-grow: 1;
+}
+
+.lists{
+  padding-left: 20px;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list-item{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  gap: .5rem;
+}
